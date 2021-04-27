@@ -1,0 +1,225 @@
+
+/* homepage */
+
+.main img.brand{
+	width: 40%;
+	float: center;
+	margin:	0% auto auto 30%;
+	align-items: center;
+	position: relative;
+	border-radius: 20px;
+	align-items: center;
+	display: block;
+
+}
+.content img.subcontent{
+	width: 40%;
+	float: center;
+	margin:	1% auto;
+	align-items: center;
+	display: block;
+	border-radius: 10px;
+	border-width: 1px;
+	border-color: black;
+	border-width: 1px;
+	position: relative;
+
+}
+
+ 
+ /* contact-template */
+
+ .div-left{
+  	background-color: grey;
+  	margin: 10% 70% 0% 15%;
+ 	border-radius:10px;
+ 	align-items: left;
+ 	align-content:left;
+ 	float: left;
+ 	border: 1px;
+ 	position: relative;
+ 	width: 40%;
+ 	height: 70%;
+ 	border-color: black;
+ }
+.div-left input{
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	display:block;
+	position:relative;
+	align-content: 100%;
+	overflow: auto;
+	width: 90%;
+	height: 50%;
+}
+.div-left img.sent{
+	
+	width: 10%;
+	float: left;
+	position: relative;
+	float: right;
+
+}
+.div-left p{
+	margin-left: 40px;
+}
+
+
+.div-right-top{
+	background-color: pink;
+  	margin: -25% 5% 0% 40%;
+ 	border-radius:10px;
+ 	align-items: right;
+ 	align-content:right;
+ 	float: right;
+ 	border: 1px;
+ 	position: relative;
+ 	width: 30%;
+ 	height: 100%;
+ }
+ .div-right-top p{
+ 	text-align: left;
+ 	position: relative;
+ 	margin-left: 20%;
+ 	text-align: left;
+
+ }
+.div-right-top img{
+	width: 10%;
+	float: right;
+	position: absolute;
+	float: right;
+	margin-left: -20%;
+
+}
+
+.div-right-bot img.mapa{
+ 	margin-top: -20%;
+ 	float: right;
+ 	position: relative;
+  	width: 40%;
+
+}
+
+
+/* ABOUT */
+
+	 .content-left{
+ 	display: block;
+ 	margin: 10% 8% 0% 0% ;
+ 	position: absolute;
+ 	font-family: snickles;
+ 	font-size: 60px;
+
+ }
+
+.content-left img.tool{
+	width: 10%;
+	float: left;
+	margin:	0 auto 0 0%;
+	position: relative;
+	border-radius: 20px;
+	align-items: left;
+	margin-top: 25px;
+	margin-right: 5px;
+}
+
+.content-right{
+ 	background-color: lightblue;
+ 	border-radius: 300px;
+ 	margin-right: -100px;
+ 	margin-top: -20%;
+ 	border-radius:100px;
+ 	align-items: right;
+ 	align-content: right;
+ 	float: right;
+ 	border: 1px;
+ 	position: relative;
+ 	width: 40%;
+
+  	}
+
+ .content-right img.shock{
+ 	width: 10%;
+ 
+
+  }
+
+  .content-right p.text{
+  	font-family: Microsoft Yahei UI Light 13;
+  	text-align: center;
+  	font-size: 40px;
+  }
+
+  #blink {
+            font-size: 50px;
+            font-weight: bold;
+            color: #2d38be;
+            transition: 0.5s;
+        }
+
+
+   /* HEADER */
+
+
+        .topnav-right{
+		position: relative;
+		display:block;
+		width: 100%;
+
+	}
+	.topnav-right a{
+		text-decoration: none;
+		color:orange;
+		width: 100%;
+		display: block;
+		padding: 10px 10px;
+		font-weight: bold;
+		font-family: arial;
+		font-size: 20px;
+		text-align: center;
+		margin: 20 auto 0 auto;
+	}
+	.topnav-right li{
+		display: inline-block;
+	}
+	.topnav-right ul {
+	  	background: rgb(238,174,202);
+		background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(242,86,154,1) 3%, rgba(3,2,17,1) 100%);
+	 	list-style: none;
+	  	margin: 1% auto;
+	  	padding: 2;
+	  	text-align: right;
+	  	margin-right: 10px;
+   }
+
+	.topnav-right a:hover {
+	  	background-color: #ddd;
+	  	color: grey;
+}
+/*.topnav-right a.log{
+	color: white;
+	position: 	relative;	
+	border:-5px solid transparent;
+	border-radius: 	5px;
+	font-size: 15px;
+	text-decoration: none;
+	margin-right: 50px;
+	
+}
+*/
+	.topnav-right img.logo{
+	 	position: relative; 
+	 	float: left; 
+	 	width: 6%;
+	 	margin-top: -10px; 
+	 	margin-left: 10px; 
+
+ }
+
+
+
+
+
+
