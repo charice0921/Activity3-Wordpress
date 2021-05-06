@@ -1,10 +1,13 @@
 
 /* homepage */
 
+
+
+}
 .main img.brand{
 	width: 40%;
 	float: center;
-	margin:	0% auto auto 30%;
+	margin:	20px auto auto 30%;
 	align-items: center;
 	position: relative;
 	border-radius: 20px;
@@ -23,27 +26,37 @@
 	border-color: black;
 	border-width: 1px;
 	position: relative;
-
 }
 
  
  /* contact-template */
 
- .div-left{
-  	background-color: grey;
-  	margin: 10% 70% 0% 15%;
- 	border-radius:10px;
- 	align-items: left;
- 	align-content:left;
- 	float: left;
- 	border: 1px;
- 	position: relative;
- 	width: 40%;
- 	height: 70%;
- 	border-color: black;
- }
-.div-left input{
-	margin-left: 10px;
+.contact-page{
+	padding: 0;
+	margin: 0;
+
+}
+	.contact-page .div-left{
+	  	background-color:#061c47;
+	  	margin-bottom: 5%;
+		margin-top: 5%;
+	 	border-radius:10px;
+	 	align-items: center;
+	 	align-content:center;
+	 	float: left;
+	 	border: 1px;
+	 	position: relative;
+	 	width: 50%;
+	 	height: 70%;
+	 	border-color: black;
+	 	display: block;
+	 	font-color:white;
+	 	display:block;
+	 	margin-left: 1%;
+	 }
+
+.contact-page .div-left input{
+	margin-left: 40px;
 	margin-top: 10px;
 	float: left;
 	display:block;
@@ -53,7 +66,14 @@
 	width: 90%;
 	height: 50%;
 }
-.div-left img.sent{
+
+.contact-page .div-left .send {
+	align-items: center;
+	margin-left: 80%;
+	margin-bottom: 10%;
+}
+/*
+.contact-page .div-left img.sent{
 	
 	width: 10%;
 	float: left;
@@ -61,31 +81,45 @@
 	float: right;
 
 }
-.div-left p{
+*/
+
+.contact-page .div-left p{
 	margin-left: 40px;
+	font-size: 30px;
+	font-color: white;
+	text-align: left;
+	color: white;
+
 }
 
 
-.div-right-top{
-	background-color: pink;
-  	margin: -25% 5% 0% 40%;
+
+.contact-page .div-right-top{
+	margin: 0;
+	padding: 0;
+
+}
+
+.contact-page .div-right-top{
+	background-color: #fc9ad2;
  	border-radius:10px;
- 	align-items: right;
- 	align-content:right;
- 	float: right;
+ 	float: left;
  	border: 1px;
  	position: relative;
- 	width: 30%;
- 	height: 100%;
+ 	width: 45%;
+ 	display: block;
+ 	margin: 2% auto auto 3%; 
+
+
  }
- .div-right-top p{
+ .contact-page .div-right-top p{
  	text-align: left;
  	position: relative;
  	margin-left: 20%;
  	text-align: left;
 
  }
-.div-right-top img{
+.contact-page .div-right-top img{
 	width: 10%;
 	float: right;
 	position: absolute;
@@ -94,30 +128,40 @@
 
 }
 
-.div-right-bot img.mapa{
- 	margin-top: -20%;
- 	float: right;
- 	position: relative;
-  	width: 40%;
+
+.contact-page .div-right-bot iframe{
+	margin: 1% auto auto 7%;
+	border-color:red;
+	border: 5px;
+	background-color: black;
 
 }
 
 
+
 /* ABOUT */
 
-	 .content-left{
+.about-grid{
+	display: flex;
+	margin: -5% 0 5% 0;
+	padding: 0;
+}
+
+
+/*left display */
+.about-grid .content-left{
  	display: block;
- 	margin: 10% 8% 0% 0% ;
+ 	margin: 10% 8% 0% 10% ;
  	position: absolute;
  	font-family: snickles;
  	font-size: 60px;
 
  }
 
-.content-left img.tool{
-	width: 10%;
+.about-grid  .content-left img.tool{
+	width: 20%;
 	float: left;
-	margin:	0 auto 0 0%;
+	margin:	0 auto 0 15%;
 	position: relative;
 	border-radius: 20px;
 	align-items: left;
@@ -125,50 +169,143 @@
 	margin-right: 5px;
 }
 
-.content-right{
+.about-grid  .content-right{
  	background-color: lightblue;
  	border-radius: 300px;
- 	margin-right: -100px;
- 	margin-top: -20%;
+ 	margin: 100% 20% 0% 50%;
  	border-radius:100px;
+ 	margin-right: 20px;
+ 	margin-top: 110px;
  	align-items: right;
  	align-content: right;
  	float: right;
  	border: 1px;
  	position: relative;
- 	width: 40%;
-
+ 	width: 50%;
   	}
 
- .content-right img.shock{
- 	width: 10%;
- 
+ .about-grid  .content-right img.shock{
+ 	width: 20%;
+ 	margin:auto;
 
   }
 
-  .content-right p.text{
+  .about-grid  .content-right p.text{
+  	font-family: snickles;
+  	text-align: center;
+  	font-size: 40px;
+  }
+
+.about-grid  .content-right p.text{
   	font-family: Microsoft Yahei UI Light 13;
   	text-align: center;
   	font-size: 40px;
+  	grid-column: 2/2;
+  	display: grid;
   }
 
   #blink {
             font-size: 50px;
             font-weight: bold;
-            color: #2d38be;
+            color: 44,62,80;
             transition: 0.5s;
         }
 
 
    /* HEADER */
 
+	.nav
+    {
+		position: sticky;
+		background: #fc9ad2;
+		width: 100vw;
 
-        .topnav-right{
-		position: relative;
-		display:block;
-		width: 100%;
-
+		/* layout*/
+		display:grid;
+		grid-auto-flow: column;
+		grid-template-columns: 20px 1fr 1fr;
+		margin: 0;
+		padding: 0;
+	
 	}
+
+	.nav .logo-container{
+		height: 50px;
+		grid-column: 2/3;
+	}
+
+ 	.nav .logo-container img{
+ 		height: 100%;
+ 		width: auto;
+ 	}
+
+ 	.nav .Menu {
+ 		list-style: none;
+ 		margin: 0;
+ 		padding: 0;
+ 		display: grid;
+ 		grid-column: 3/3;
+ 		grid-auto-flow: column;
+ 		align-items: center;
+ 		grid-auto-columns: 120px;
+ 		text-align: right;
+ 		font-size: 25px;
+ 		font-weight: 20;
+ 		background-color: #061c47;
+ 		line-height: 50px;
+ 		z-index: 1;
+ 		border-bottom-left-radius: 80px 100px;
+ 	}
+
+ 	.nav .Menu a{
+ 			text-decoration: none;
+ 			border: .1px solid white;
+ 			padding: 1px 10px;
+ 			border-radius: 5px;
+ 			font-size: 20px;
+ 			color: white;
+
+ 	}
+/*
+ 	.nav .Menu li{
+ 		display: inline-block;
+ 		line-height: 80px;
+ 	}
+*/
+
+/* for product */
+ 	.shop-container{
+
+ 		margin-left: 10%;
+ 		margin-right: 10%;
+	}
+
+	.entry-header h1.entry-title{
+	text-align: center;
+	}
+
+
+	.entry-header .post-thumbnail{
+		align-items: center;
+		margin-left: 10%;
+	}
+
+	.woocommerce-product-gallery summary entry-summary{
+		margin-left: 30%;
+	}
+
+	.woocommerce-notices-wrapper woocommerce-checkout col2-set col-1 woocommerce-billing-fields__field-wrapper{
+		margin-left: 10%;
+	
+	}
+
+
+
+
+/*	menu */
+
+	.
+/*
 	.topnav-right a{
 		text-decoration: none;
 		color:orange;
@@ -209,14 +346,6 @@
 	
 }
 */
-	.topnav-right img.logo{
-	 	position: relative; 
-	 	float: left; 
-	 	width: 6%;
-	 	margin-top: -10px; 
-	 	margin-left: 10px; 
-
- }
 
 
 

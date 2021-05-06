@@ -12,17 +12,18 @@
 ?>
 <style>
 .footer{
-	width: 60%;
-	margin:	1% auto;
+	width: 70%;
+	height: 5%;
+	margin: auto 0 auto 15%;
 	align-items: center;
-	display: block;
 	border-radius: 20px;
 	border-width: 1px;
-	border-color: black;
-	border-width: 1px;
-	margin-top: 0%;
+	margin-top: auto;
 	position: center;
-	margin-right: 20%;
+	padding: 5px;
+	display: grid;
+	position: sticky;
+
 
 }
 </style>
@@ -34,5 +35,6 @@
 			<img src="http://localhost/ecommerce/wp-content/uploads/2021/04/footer.png">
 	</div>
 
-</body>
-</html>
+
+
+

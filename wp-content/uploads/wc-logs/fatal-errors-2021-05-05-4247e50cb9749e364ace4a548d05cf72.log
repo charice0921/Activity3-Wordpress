@@ -1,0 +1,4 @@
+2021-05-05T08:47:16+00:00 CRITICAL Out of memory (allocated 46137344) (tried to allocate 65536 bytes) in C:\xampp2\htdocs\ecommerce\wp-content\plugins\woocommerce\includes\rest-api\Utilities\SingletonTrait.php on line 13
+
+2021-05-05T08:47:18+00:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 8192 bytes) in C:\xampp2\htdocs\ecommerce\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Leaderboards.php on line 303
+
